@@ -1,0 +1,40 @@
+.cart-container {
+  border: 1px solid #ddd; /* Border color and width */
+  padding: 2px; /* Add some padding for better visual appearance */
+   /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 90vh;
+     background-color: #fefafa;
+}
+ 
+
+.cart-item {
+  border: 1px solid #ddd; /* Border color and width for each item */
+  margin-bottom: 10px; /* Add margin between each item for spacing */
+  padding: 10px; /* Add padding for better visual appearance */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 16px;
+}

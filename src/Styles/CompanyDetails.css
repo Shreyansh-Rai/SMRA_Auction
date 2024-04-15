@@ -1,0 +1,101 @@
+.company-details-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-section {
+  width: 50%;
+  height: 50%;
+  /* padding-right: 20px; */
+  /* padding-top: 20px; */
+}
+
+.right-section {
+  width: 45%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  /* margin-top: 20px; */
+}
+
+.form-group input {
+  padding-right: 10px; /* Adjust padding as needed */
+}
+
+label {
+  margin-right: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-content button {
+  margin-right: 10px;
+}
+
+.holdings-cards {
+  margin-top: 20px;
+  width:500px;
+}
+
+.holding-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width:500px;
+}
+
+
+
+.cart-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.holding-cards-container {
+  display: flex;
+  flex-direction: row; /* Ensure cards fill from top */
+  flex-wrap: wrap;
+  align-items: top;
+  padding: 20px;
+}
+
+.cart-item {
+  border: 1px solid #ddd; /* Border color and width for each item */
+  margin-bottom: 10px; /* Add margin between each item for spacing */
+  margin-right: 10px;
+  padding: 10px; /* Add padding for better visual appearance */
+  padding-left: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}

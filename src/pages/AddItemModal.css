@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+ 
+.content-container {
+  display: flex;
+  width: 80%;
+}
+
+.add-item-container,
+.cart-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cart-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-container li {
+  margin: 10px;
+  flex: 0 0 calc(50% - 20px);
+  width: 100%;
+}
